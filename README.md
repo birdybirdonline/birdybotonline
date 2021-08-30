@@ -7,8 +7,14 @@ A basic skeleton / factory for a discord bot, triggering the key initializations
 - makes use of [discord.ext's](https://discordpy.readthedocs.io/en/latest/index.html#extensions) 'commands' module which allows us to define our agent as type ```Bot``` as opposed to ```Client```, which gives a number of useful functions.
 - Also does the preliminary work to set up a db if required.
 
+<<<<<<< HEAD
 ### `.env`:
     environmental variables to determine our TOKEN and command PREFIX. Referenced by main.py.
+=======
+#### `.env`: environmental variables to determine our TOKEN and command PREFIX. Referenced by main.py
+
+I've not gitignore'd it here, just so it can be seen as an example. This should be added to gitignore locally so that tokens are not pushed to repo.
+>>>>>>> 2361e6d (Update README.md)
 
 # Command modules
 
