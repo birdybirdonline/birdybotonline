@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # `main.py`
 
 A basic skeleton / factory for a discord bot, triggering the key initializations and populating the bot's command list. It doesn't and shouldn't do much else, but does operate a single event handler to confirm bot ready status. 
@@ -7,14 +6,14 @@ A basic skeleton / factory for a discord bot, triggering the key initializations
 - makes use of [discord.ext's](https://discordpy.readthedocs.io/en/latest/index.html#extensions) 'commands' module which allows us to define our agent as type ```Bot``` as opposed to ```Client```, which gives a number of useful functions.
 - Also does the preliminary work to set up a db if required.
 
-<<<<<<< HEAD
+
 ### `.env`:
     environmental variables to determine our TOKEN and command PREFIX. Referenced by main.py.
 =======
 #### `.env`: environmental variables to determine our TOKEN and command PREFIX. Referenced by main.py
 
 I've not gitignore'd it here, just so it can be seen as an example. This should be added to gitignore locally so that tokens are not pushed to repo.
->>>>>>> 2361e6d (Update README.md)
+
 
 # Command modules
 
@@ -95,13 +94,12 @@ and are consistent from contributor to contributor.
 * `Cogs` should be named with the prefix `com_` and the suffix `_cog`
 * The implementation of any `command` or `cog` should not involve direct rewrites of or amendments to any other area of our codebase
 
-<<<<<<< HEAD
 ## A template / example of a `command` and `cog` are each included in the coms folder in this repo.
 =======
 # birdybotonline
 A basic Python 3 discord bot template for modular commands
->>>>>>> 95f06bc (Initial commit)
+
 =======
 
 #### A template / example of a `command` and `cog` are each included in the coms folder in this repo.
->>>>>>> 891d6b5 (Update README.md)
+
